@@ -16,8 +16,6 @@ public class WeatherForecastController : ControllerBase
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
-
-        //prueba camvios hoy
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
